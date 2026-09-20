@@ -1,9 +1,8 @@
-# Rust Tutorial Project — Principles of Programming Languages
+# Iterative Structures
 
-> **สำหรับนักศึกษา:** ใช้ไฟล์นี้เป็น Template สำหรับจัดทำบทเรียน Rust ของกลุ่ม  
-> **Topic No.:** `XX`  
-> **Topic Name:** `[ชื่อหัวข้อ]`  
-> **Group No.:** `XX`
+> **Topic No.:** `7`  
+> **Topic Name:** `Iterative Structures`  
+> **Group No.:** `7`
 
 ---
 
@@ -11,10 +10,10 @@
 
 | # | Name | Student ID | GitHub Username | Main Responsibility |
 |---|---|---|---|---|
-| 1 | `[ชื่อ-นามสกุล]` | `[รหัส]` | `@[username]` | Concept + Code |
-| 2 | `[ชื่อ-นามสกุล]` | `[รหัส]` | `@[username]` | Code + Demo |
-| 3 | `[ชื่อ-นามสกุล]` | `[รหัส]` | `@[username]` | Rust vs Other Language + PPL |
-| 4 | `[ชื่อ-นามสกุล]` | `[รหัส]` | `@[username]` | Exercises + Common Mistakes |
+| 1 | `นายนวภูมิ ปั้นหลวง` | `670710133` | `@670710133` | Concept + Code |
+| 2 | `นายปฏิภาณ นิลวงค์` | `670710134` | `@[username]` | Code + Demo |
+| 3 | `นายปรเมทร์ ฟองดา` | `670710135` | `@[username]` | Rust vs Other Language + PPL |
+| 4 | `นายปิยวัฒน์ เดียนประไพ` | `670710136` | `@[username]` | Exercises + Common Mistakes |
 
 ---
 
