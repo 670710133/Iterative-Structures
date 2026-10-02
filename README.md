@@ -667,8 +667,9 @@ read_line() ต้องการรับค่าแบบ &mut String เพ�
 ตัวแปร number มีค่าเริ่มต้นเป็น 0 และ ไม่เคยถูกอัปเดตค่าเลย ในระหว่างการทำงานของลูป เพราะไม่ได้ดึงข้อมูลจาก msg มาแปลงเป็นตัวเลข ทำให้เงื่อนไข while เป็นจริงตลอดไป ส่งผลให้เกิด Infinite Loop
 
 ตัวแปร number ไม่ได้ประกาศเป็น mut ทำให้อัปเดตค่าไม่ได้
-
 การเรียกใช้ io::stdin() จำเป็นต้องดึงโมดูล std::io เข้ามาก่อน
+
+
 ---
 
 ### Mistake 4 — `[Option<&&str>` doesn't implement `std::fmt::Display]`
@@ -939,8 +940,9 @@ fn main() {
     };
     println!("Result from loop expression: {}", result);
 }
+```
 
-### `[Other Language]` Example
+### `[Other Language]` Example Python
 
 ```python
 numbers = [10, 20, 30]
@@ -959,8 +961,8 @@ while True:
 print(f"Result from loop: {result}")
 
 # 3. ตัวอย่างความเสี่ยงของการแอบแก้ไข List ระหว่างวนลูปใน Python (เกิดข้อผิดพลาดตอน Runtime)
-# for num in numbers:
-#     numbers.remove(num)  # ข้อมูลจะถูกลบข้ามองค์ประกอบไปเรื่อยๆ โดยที่คอมไพเลอร์ไม่เตือนก่อนรัน
+for num in numbers:
+    numbers.remove(num)  # ข้อมูลจะถูกลบข้ามองค์ประกอบไปเรื่อยๆ โดยที่คอมไพเลอร์ไม่เตือนก่อนรัน
 ```
 
 ### Analysis
@@ -986,19 +988,19 @@ print(f"Result from loop: {result}")
 
 **Member 1**
 
-`[Concept + Short Code Illustration]`
+`Concept + Short Code Illustration`
 
 **Member 2**
 
-`[Detailed Code + Live Demo]`
+`Detailed Code + Live Demo`
 
 **Member 3**
 
-`[Rust, Other Language, PPL Analysis]`
+`Rust, Other Language, PPL Analysis`
 
 **Member 4**
 
-`[Exercies, Common Mistakes, Challenge]`
+`Exercies, Common Mistakes, Challenge`
 
 > สมาชิกทุกคนต้องสามารถอธิบาย Code ของกลุ่มได้ ไม่ใช่เฉพาะส่วนที่ตนเองเขียน
 
@@ -1013,7 +1015,7 @@ print(f"Result from loop: {result}")
 3. `[Official documentation ที่เกี่ยวข้องกับ Topic]`
 4. `[https://www.w3schools.com/rust/rust_loops_for.php]`
 5. `[https://users.rust-lang.org/t/reverse-for-loops/53856]`
-6. `[ https://medium.com/@fennsaji/day-1-input-and-output-i-o-in-rust-with-examples-be6f9478d133]`
+6. `[https://medium.com/@fennsaji/day-1-input-and-output-i-o-in-rust-with-examples-be6f9478d133]`
 7. `[https://www.w3schools.com/rust/rust_loops_while.php]`
 8. `[https://doc.rust-lang.org/std/error/trait.Error.html#error-source]`
 9. `[https://doc.rust-lang.org/reference/expressions/loop-expr.html]`
@@ -1057,10 +1059,10 @@ Perplexity ใช้ในการหา concept ตรวจสอบโดย
 
 | Member | Issues | Commits | Pull Requests | Code Reviews | Contribution |
 |---|---:|---:|---:|---:|---|
-| Member 1 | `[0]` | `[1]` | `[1]` | `[1]` | `[README]` |
-| Member 2 | `[0]` | `[1]` | `[1]` | `[1]` | `[Update: README.md]` |
-| Member 3 | `[0]` | `[1]` | `[1]` | `[1]` | `[docs: update PPL anaiysis and Rust vs Python comparison]` |
-| Member 4 | `[0]` | `[1]` | `[4]` | `[0]` | `[รายละเอียด]` |
+| Member 1 | `0` | `2` | `2` | `2` | `README`, `Update syntax/rules section with loop examples` |
+| Member 2 | `0` | `1` | `1` | `1` | `Update: README.md` |
+| Member 3 | `0` | `1` | `1` | `1` | `docs: update PPL anaiysis and Rust vs Python comparison` |
+| Member 4 | `0` | `3` | `4` | `1` | `SUCCESS: Topic Example, Common mistakes and Challenge`, `Update: details branch main`, `MERGE: origin Tle` |
 
 ### Teamwork Reflection
 
@@ -1116,4 +1118,4 @@ Perplexity ใช้ในการหา concept ตรวจสอบโดย
 
 **Submitted by:** `[Group 7]`
 
-**Date:** `[YYYY-MM-DD]`
+**Date:** `[2026-10-02]`
