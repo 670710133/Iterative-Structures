@@ -32,6 +32,21 @@
 
 ## 3. Introduction
 
+`[เขียนเนื้อหาที่นี่ — ใช้โครงสร้างเดียวกับ rust_tutorial_template.md ฉบับเต็มที่ผู้สอนแจกให้]`
+
+## 2. Learning Objectives
+
+หลังจากศึกษา Topic นี้แล้ว ผู้เรียนสามารถ:
+
+1. `[อธิบายแนวคิดสำคัญได้]`
+2. `[เขียนโปรแกรม Rust ที่เกี่ยวข้องได้]`
+3. `[วิเคราะห์พฤติกรรม/กฎของภาษาได้]`
+4. `[เปรียบเทียบ Rust กับภาษาอื่นได้]`
+
+---
+
+## 3. Introduction
+
 อธิบายว่า Topic นี้คืออะไร มีความสำคัญอย่างไร และใช้แก้ปัญหาอะไรในการเขียนโปรแกรม
 
 `[เขียนเนื้อหาที่นี่]`
@@ -813,11 +828,11 @@ print(f"Result from loop: {result}")
 
 **Member 1**
 
-`[สิ่งที่รับผิดชอบ]`
+`[Concept + Short Code Illustration]`
 
 **Member 2**
 
-`[สิ่งที่รับผิดชอบ]`
+`[Detailed Code + Live Demo]`
 
 **Member 3**
 
@@ -842,6 +857,7 @@ print(f"Result from loop: {result}")
 5. `[https://users.rust-lang.org/t/reverse-for-loops/53856]`
 6. `[ https://medium.com/@fennsaji/day-1-input-and-output-i-o-in-rust-with-examples-be6f9478d133]`
 7. `[https://www.w3schools.com/rust/rust_loops_while.php]`
+8. `[https://doc.rust-lang.org/std/error/trait.Error.html#error-source]`
 
 ---
 
@@ -851,20 +867,25 @@ print(f"Result from loop: {result}")
 
 | AI Tool | Purpose | How the Result Was Verified |
 |---|---|---|
-| `[Claude]` | `[คิดโจทย์ challenge และ โจทย์ Example]` | `[https://claude.ai/chat/80a72dbd-c254-4693-8492-9b4aafd4d969]` |
-| `[AI tool]` | `[ใช้เพื่ออะไร]` | `[ตรวจสอบอย่างไร]` |
+| `[Claude]` | `[คิดโจทย์ challenge และ โจทย์ Example]` | `[https://claude.ai/share/4d50148f-b370-4e44-ab47-62483d2ef7d3]` |
+| `[Gemini]` | `[หาข้อผิดพลาดของโปรแกรม]` | `[https://gemini.google.com/app/78ce5cb516c918f1?is_sa=1&is_sa=1&android-min-version=301356232&ios-min-version=322.0&campaign_id=bkws&utm_source=sem&utm_medium=paid-media&utm_campaign=bkws&pt=9008&mt=8&ct=p-growth-sem-bkws&gclsrc=aw.ds&gad_source=1&gad_campaignid=22446690916&gbraid=0AAAAApk5Bhmbyn4lsYV7JyWrTXBtH6zsu&gclid=Cj0KCQjw5vLVBhCiARIsAD56SFLMD9UA7iL7xIayzZd8H7fwbFSSts0Um9YNcMcR3dgtED1-zKyC7_IaAk_iEALw_wcB]` |
+|`[Gemini]`|`[PPL Analysis เปรียบเทียบภาษา Rust กับภาษาอื่นๆ]`|`[https://gemini.google.com/share/5fc3e5b9f3a9?skid=17257cad-df3f-4503-b53c-3fc3d5f356ad]`|
 
 ### Declaration
 
 - [X] Code ทุกส่วนที่นำเสนอได้รับการ Compile และทดสอบแล้ว
-- [ ] สมาชิกทุกคนสามารถอธิบาย Code ที่นำเสนอได้
-- [ ] ตรวจสอบข้อมูลจากแหล่งอ้างอิงที่น่าเชื่อถือแล้ว
+- [X] สมาชิกทุกคนสามารถอธิบาย Code ที่นำเสนอได้
+- [X] ตรวจสอบข้อมูลจากแหล่งอ้างอิงที่น่าเชื่อถือแล้ว
 - [X] ระบุการใช้ AI อย่างโปร่งใส
 
 **รายละเอียดการใช้ AI**
 
 `[อธิบายว่าใช้ AI ในขั้นตอนใด และสมาชิกตรวจสอบผลลัพธ์อย่างไร]`
-
+```text
+Claude ใช้ในขั้นตอนการหาโจทย์ Example และคิดโจทย์ challenge ตรวจสอบจากการรันหลายๆเทสเคสแล้วเลือกเอาเทสเคสที่เหมาะสมเอาไปนำเสนอ
+ขั้นตอนการหาข้อผิดพลาด เราใช้ Gemini เพื่อหาข้อผิดพลาดของโปรแกรมที่เราจะมานำเสนอในส่วนของ Live Demo เราได้ทำการตรวจสอบจากแหล่งอ้างอิงที่ทางเราได้แนบไป
+ขั้นตอนการเปรียบเทียบกับภาษาอื่น ใช้ Gemini เพื่อหาการเปรียบเทียบกับภาษาอื่นที่เข้าใจได้ง่ายๆ และทำการหามุมมองของ PPL ตรวจสอบจากเอกสารที่อาจารย์ได้เอามาสอนในห้องและแหล่งอ้างอิงจากที่เราแนบไปครับ
+```
 ---
 
 ## 14. GitHub Contribution
@@ -872,7 +893,7 @@ print(f"Result from loop: {result}")
 | Member | Issues | Commits | Pull Requests | Code Reviews | Contribution |
 |---|---:|---:|---:|---:|---|
 | Member 1 | `[จำนวน]` | `[จำนวน]` | `[จำนวน]` | `[จำนวน]` | `[รายละเอียด]` |
-| Member 2 | `[จำนวน]` | `[จำนวน]` | `[จำนวน]` | `[จำนวน]` | `[รายละเอียด]` |
+| Member 2 | `[0]` | `[1]` | `[1]` | `[1]` | `[Update: README.md]` |
 | Member 3 | `[0]` | `[1]` | `[1]` | `[1]` | `[docs: update PPL anaiysis and Rust vs Python comparison]` |
 | Member 4 | `[0]` | `[1]` | `[4]` | `[0]` | `[รายละเอียด]` |
 
@@ -881,45 +902,53 @@ print(f"Result from loop: {result}")
 **How did your team collaborate?**
 
 `[อธิบายกระบวนการทำงานร่วมกัน]`
+```text
+เราได้ทำการสร้าง branch แยกของแต่ละคน จากนั้นพอทำงานเสร็จตามที่ตัวเองได้รับมอบหมาย จะทำการรวม Branch เข้า main เพื่อเอางานที่เสร็จสมบูรณ์ส่งอาจารย์
+```
 
 **Problems encountered**
 
 `[ปัญหาที่พบ]`
+```text
+ิbranch แต่ละคนที่เอามารวมกันบางเกิดอาการ code ทับกัน บางข้อมูลที่คนอื่นทำไว้บางส่วนหายไปบ้าง
+```
 
 **How did you solve them?**
 
 `[วิธีแก้ปัญหา]`
-
+```text
+แก้โดยการรวมทีละ branch เข้า main เพื่อป้องกันอาการ code หายไปบางส่วน
+```
 ---
 
 ## 15. Final Checklist
 
-- [ ] Learning Objectives ครบ 3–4 ข้อ
-- [ ] Key Concepts ครบถ้วน
-- [ ] Syntax / Rules
+- [X] Learning Objectives ครบ 3–4 ข้อ
+- [X] Key Concepts ครบถ้วน
+- [X] Syntax / Rules
 - [X] Runnable Code Examples
 - [X] Code Compile และ Run ได้จริง
 - [X] Common Mistakes
 - [X] Exercises 2 ข้อ พร้อม Solutions
-- [ ] PPL Perspective
+- [X] PPL Perspective
 - [X] Rust vs Other Language
 - [X] References อย่างน้อย 4 แหล่ง
 - [X] AI Usage Declaration
 - [X] GitHub Contribution
-- [ ] สมาชิกทั้ง 4 คนมีส่วนร่วม
-- [ ] สมาชิกทั้ง 4 คนพร้อมนำเสนอคนละ 5 นาที
-- [ ] สมาชิกทุกคนสามารถอธิบาย Code ของกลุ่มได้
+- [X] สมาชิกทั้ง 4 คนมีส่วนร่วม
+- [X] สมาชิกทั้ง 4 คนพร้อมนำเสนอคนละ 5 นาที
+- [X] สมาชิกทุกคนสามารถอธิบาย Code ของกลุ่มได้
 
 ---
 
 ## Submission Information
 
-**Repository:** `[GitHub repository URL]`
+**Repository:** `[https://github.com/670710136/Iterative-Structures]`
 
-**Chapter Path:** `[เช่น chapters/01-introduction/]`
+**Chapter Path:** `[https://github.com/soonklang/rust-tutorial-2569/tree/main/07-iterative-structures]`
 
 **Final PR:** `#[PR number]`
 
-**Submitted by:** `[Group XX]`
+**Submitted by:** `[Group 7]`
 
 **Date:** `[YYYY-MM-DD]`
